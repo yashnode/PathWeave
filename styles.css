@@ -495,7 +495,6 @@ h1 {
   }
 }
 
-/* Creative refresh */
 :root {
   --bg: #06111b;
   --bg-2: #0a1824;
@@ -616,7 +615,6 @@ h1 {
   }
 }
 
-/* Snake board view */
 #masterList.snake-layout {
   display: grid;
   gap: 14px;
