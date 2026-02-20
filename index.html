@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAANG Switchboard • 6-Month Plan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Spectral:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="app">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">6-Month Plan • Start: <span id="startDate"></span> • End: <span id="endDate"></span></p>
+        <h1>FAANG Switchboard</h1>
+        <p class="subtitle">A single, day-by-day system for DSA + Math/ML. One focused task per day, with beginner-friendly explanations.</p>
+      </div>
+      <div class="hero-card">
+        <div class="stat">
+          <span class="stat-label">Overall Progress</span>
+          <span class="stat-value" id="overallPct">0%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" id="overallBar"></div>
+        </div>
+        <div class="stat">
+          <span class="stat-label">DSA Progress</span>
+          <span class="stat-value" id="dsaPct">0%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar dsa" id="dsaBar"></div>
+        </div>
+        <div class="stat">
+          <span class="stat-label">Math/ML Progress</span>
+          <span class="stat-value" id="mathPct">0%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar math" id="mathBar"></div>
+        </div>
+        <div class="pill-row">
+          <span class="pill">Day-by-day flow</span>
+          <span class="pill">Beginner-first</span>
+          <span class="pill">From Striver sheet</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="controls">
+      <div class="control-group">
+        <label class="control-label">Filter by Month</label>
+        <div class="buttons" id="filterButtons"></div>
+      </div>
+      <div class="control-group">
+        <label class="control-label">Filter by DSA Topic</label>
+        <div class="buttons" id="dsaTopicButtons"></div>
+      </div>
+      <div class="control-group">
+        <label class="control-label">Filter by Math Topic</label>
+        <div class="buttons" id="mathTopicButtons"></div>
+      </div>
+      <div class="control-group">
+        <label class="control-label">View</label>
+        <button id="toggleCompleted" class="btn ghost">Hide Completed</button>
+        <button id="resetProgress" class="btn danger">Reset All</button>
+      </div>
+    </section>
+
+    <main class="grid">
+      <section class="card" data-section="master">
+        <div class="card-head">
+          <h2>Master Checklist (180 Days)</h2>
+          <span class="section-progress" data-progress-for="master"></span>
+        </div>
+        <p class="card-note">One task per day. Review every 6th day. DSA problems come from your Striver sheet dump.</p>
+        <div class="checklist" id="masterList"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <strong>Rule:</strong> If a day feels hard, repeat it tomorrow before moving on.
+      </div>
+      <div>
+        <strong>Note:</strong> This page loads data from `plan.json` and `dsa_dump.json`.
+      </div>
+    </footer>
+  </div>
+
+  <script src="plan-data.js"></script>
+  <script src="dsa-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

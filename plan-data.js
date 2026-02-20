@@ -1,0 +1,270 @@
+window.__PLAN_DATA__ = {
+  "months": [
+    {
+      "name": "Month 1: Foundations",
+      "focus": "Math-first with light DSA: arrays, strings, hash maps, two pointers",
+      "dsaTopics": [
+        "ARRAYS",
+        "STRINGS",
+        "SLIDING WINDOW"
+      ],
+      "math": [
+        "Arithmetic: order of operations",
+        "Arithmetic: fractions and decimals",
+        "Arithmetic: negative numbers",
+        "Pre-algebra: variables",
+        "Pre-algebra: exponents",
+        "Pre-algebra: ratios and proportions",
+        "Algebra: solving one-step equations",
+        "Algebra: solving two-step equations",
+        "Algebra: linear equations",
+        "Algebra: slope and intercept",
+        "Algebra: functions (input/output)",
+        "Algebra: graph a line",
+        "Algebra: inequalities",
+        "Algebra: absolute value",
+        "Algebra: word problems",
+        "Algebra: systems of equations (intro)",
+        "Algebra: simplifying expressions",
+        "Algebra: factoring basics",
+        "Algebra: rearranging formulas",
+        "Algebra: review and recap",
+        "Algebra: quick quiz day"
+      ],
+      "companies": [
+        "Amazon",
+        "Google",
+        "Meta"
+      ]
+    },
+    {
+      "name": "Month 2: Data Structures and Linear Algebra",
+      "focus": "Alternate DSA and math daily",
+      "dsaTopics": [
+        "LINKED LIST",
+        "STACK",
+        "BINARY SEARCH",
+        "BINARY TREE"
+      ],
+      "math": [
+        "Vectors: magnitude and direction",
+        "Vectors: addition and subtraction",
+        "Vectors: dot product",
+        "Matrices: add and multiply",
+        "Matrices: identity and inverse idea",
+        "Matrices: transpose",
+        "Systems of equations (matrix form)",
+        "Linear transformations (intuition)",
+        "Basis and span (idea)",
+        "Eigenvalues (intuition only)",
+        "Matrix rank (intuition)",
+        "Vector norms (L1, L2)",
+        "Projections and similarity",
+        "Orthogonality",
+        "Data as vectors (features)",
+        "Cosine similarity (idea)",
+        "Matrix multiplication in ML",
+        "Linear regression math overview",
+        "Loss functions (MSE)",
+        "Gradient intuition without calculus",
+        "Review: vectors and matrices"
+      ],
+      "companies": [
+        "Amazon",
+        "Google",
+        "Meta"
+      ]
+    },
+    {
+      "name": "Month 3: Graphs and Dynamic Programming",
+      "focus": "Graphs + DP, probability basics",
+      "dsaTopics": [
+        "DP",
+        "RECURSION",
+        "BINARY TREE"
+      ],
+      "math": [
+        "Probability: sample space",
+        "Probability: independent events",
+        "Probability: conditional probability",
+        "Probability: Bayes rule",
+        "Random variables",
+        "Expected value",
+        "Variance",
+        "Standard deviation",
+        "Common distributions (Bernoulli)",
+        "Binomial distribution",
+        "Normal distribution idea",
+        "Law of large numbers (intuition)",
+        "Entropy (idea)",
+        "KL divergence (idea)",
+        "Information gain (idea)",
+        "Stats: mean vs median",
+        "Stats: bias and variance",
+        "Stats: correlation",
+        "Stats: covariance",
+        "Review: probability"
+      ],
+      "companies": [
+        "Amazon",
+        "Google",
+        "Meta"
+      ]
+    },
+    {
+      "name": "Month 4: Calculus and Optimization",
+      "focus": "Derivatives, gradients, optimization",
+      "dsaTopics": [
+        "DP",
+        "BINARY SEARCH",
+        "BINARY TREE"
+      ],
+      "math": [
+        "Derivatives: slope of a curve",
+        "Derivative rules (power rule)",
+        "Chain rule concept",
+        "Partial derivatives",
+        "Gradients and direction",
+        "Tangent line idea",
+        "Local minima and maxima",
+        "Convex vs non-convex",
+        "Gradient descent steps",
+        "Learning rate intuition",
+        "Loss surfaces (intuition)",
+        "Overfitting vs underfitting",
+        "Regularization (L2)",
+        "Regularization (L1)",
+        "Log loss intuition",
+        "Softmax idea",
+        "Backprop overview",
+        "Vectorized gradients",
+        "Numerical stability",
+        "Optimization recap",
+        "Review day"
+      ],
+      "companies": [
+        "Amazon",
+        "Google",
+        "Meta"
+      ]
+    },
+    {
+      "name": "Month 5: Neural Nets and Transformers",
+      "focus": "NN components, attention, LLM basics",
+      "dsaTopics": [
+        "DP",
+        "BINARY TREE",
+        "RECURSION",
+        "STACK"
+      ],
+      "math": [
+        "Neuron idea: weighted sum",
+        "Activation functions (ReLU, sigmoid)",
+        "Loss functions for classification",
+        "Backprop in a 2-layer net",
+        "Gradient checking (idea)",
+        "Overfitting and dropout",
+        "Batch norm intuition",
+        "Embeddings idea",
+        "Sequence modeling basics",
+        "RNN vs LSTM (idea)",
+        "CNN basics (filters)",
+        "Attention intuition",
+        "Scaled dot-product attention",
+        "Multi-head attention",
+        "Positional encoding",
+        "Transformer blocks",
+        "Residual connections",
+        "Layer norm",
+        "Tokenization basics",
+        "Training loop overview",
+        "Evaluation metrics (perplexity)",
+        "Inference basics",
+        "Prompting basics",
+        "RLHF overview (concept)",
+        "Safety and alignment basics",
+        "Review and recap"
+      ],
+      "companies": [
+        "Amazon",
+        "Google",
+        "Meta"
+      ]
+    },
+    {
+      "name": "Month 6: Company Mix and Interview Polish",
+      "focus": "Timed sets, system design, mock loops",
+      "dsa": [
+        "Timed set: 2 easy + 1 medium",
+        "Timed set: 3 mediums",
+        "Timed set: 1 hard + 1 medium",
+        "Company mix: Amazon tag set",
+        "Company mix: Google tag set",
+        "Company mix: Meta tag set",
+        "Mock interview: full 45 min",
+        "System design drill: API + data model",
+        "System design drill: scaling",
+        "Behavioral story: conflict",
+        "Behavioral story: leadership",
+        "Behavioral story: failure",
+        "Behavioral story: impact",
+        "Design review: tradeoffs",
+        "Complexity analysis review",
+        "Re-do 3 weakest problems",
+        "Re-do 3 hardest problems",
+        "Re-do 3 graph problems",
+        "Re-do 3 DP problems",
+        "One-page resume review",
+        "Mock interview: full 45 min",
+        "System design: caching",
+        "System design: queues",
+        "System design: sharding",
+        "System design: observability",
+        "Behavioral: teamwork",
+        "Behavioral: ownership",
+        "Behavioral: ambiguity",
+        "Full loop simulation",
+        "Rest and reset"
+      ],
+      "math": [
+        "Review: vectors and matrices",
+        "Review: probability and stats",
+        "Review: gradients and optimization",
+        "LLM inference basics (batching, cache)",
+        "RL recap: rewards and value",
+        "LLM systems: latency vs throughput",
+        "Paper reading: summarize one abstract",
+        "Paper reading: outline sections",
+        "Paper reading: rewrite methods",
+        "Paper reading: note assumptions",
+        "Paper reading: list limitations",
+        "Paper reading: find baselines",
+        "Paper reading: explain result table",
+        "Paper reading: explain ablation",
+        "Paper reading: reproduce a figure",
+        "Research write-up: 1 page",
+        "Explain a system design",
+        "Explain a DP recurrence",
+        "Explain a graph approach",
+        "Explain a transformer",
+        "Explain a loss function",
+        "Explain a metric",
+        "Explain a tradeoff",
+        "Explain a failure case",
+        "Explain a fix",
+        "Explain a result",
+        "Explain a paper in 5 lines",
+        "Explain a model in 5 lines",
+        "Write 10 flashcards",
+        "Rest and recap"
+      ],
+      "companies": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple",
+        "Netflix"
+      ]
+    }
+  ]
+};
