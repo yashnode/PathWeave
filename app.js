@@ -1,8 +1,4 @@
 ﻿const start = new Date("2026-02-20T00:00:00");
-const end = new Date(start);
-end.setMonth(end.getMonth() + 6);
-
-const fmt = (d) => d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
 const byId = (id) => document.getElementById(id);
 const safeSetText = (id, text) => {
   const el = byId(id);
@@ -13,8 +9,6 @@ const safeSetWidth = (id, width) => {
   if (el) el.style.width = width;
 };
 
-safeSetText("startDate", fmt(start));
-safeSetText("endDate", fmt(end));
 
 const storageKey = "switchboard-progress-v7";
 const monthStorageKey = "switchboard-active-month-v1";
@@ -418,7 +412,7 @@ const createSnakeNode = (day, onSelect) => {
 
   const dayNum = document.createElement("div");
   dayNum.className = "snake-day-num";
-  dayNum.textContent = `Day ${day.dayNumber} • ${day.title}`;
+  dayNum.textContent = `Day ${day.dayNumber}`;
 
   const type = document.createElement("span");
   type.className = "snake-type";
@@ -508,7 +502,7 @@ const createDetailPanel = () => {
   panel.appendChild(tags);
 
   const render = (day) => {
-    title.textContent = day.title;
+    title.textContent = `Day ${day.dayNumber}`;
     meta.textContent = `${day.meta} • ${day.taskLabel}`;
     note.textContent = day.taskExplain;
     if (day.taskLink) {
@@ -680,7 +674,7 @@ const build = (plan, dsaDump) => {
       const companyMix = taskType === "dsa" && (globalDay % 5 === 0) ? config.companies : [];
       const meta = `Day ${globalDay} • Month ${monthIndex + 1}`;
       const day = {
-        title: fmt(date),
+        title: `Day ${globalDay}`,
         meta,
         taskLabel: label,
         taskExplain: explain,
